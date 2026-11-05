@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 20" width="40" height="20">
+  <!-- Console pills lighting in turn inside a blue frame (frames 499, 635). -->
+  <style>
+    .p { opacity: 0.18; animation: lit 1.6s steps(1, end) infinite; }
+    .p2 { animation-delay: 0.4s; } .p3 { animation-delay: 0.8s; } .p4 { animation-delay: 1.2s; }
+    @keyframes lit { 0% { opacity: 1; } 25% { opacity: 0.18; } }
+    @media (prefers-reduced-motion: reduce) { .p { animation: none; opacity: 1; } }
+  </style>
+  <path d="M1.2 1.2h29.6a8 8 0 0 1 8 8v1.6a8 8 0 0 1-8 8H1.2z" fill="#000000" stroke="#128cff" stroke-width="1.6"/>
+  <rect class="p" x="4" y="7" width="6.4" height="6" rx="3" fill="#76d158"/>
+  <rect class="p p2" x="11.6" y="7" width="6.4" height="6" rx="3" fill="#19beff"/>
+  <rect class="p p3" x="19.2" y="7" width="6.4" height="6" rx="3" fill="#e9fbff"/>
+  <rect class="p p4" x="26.8" y="7" width="6.4" height="6" rx="3" fill="#ff542e"/>
+</svg>

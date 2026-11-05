@@ -1,0 +1,39 @@
+/*
+ * The Undiscovered Country: the 2293 Enterprise-A and Excelsior displays.
+ * Black glass inside electric-blue frames that are square on one side and
+ * rounded on the other, white Microgramma type, green and sky-blue data
+ * pills, red-orange labels. Light mode uses the same rules.
+ * Only runtime-allowlisted surfaces are styled. Fonts come from theme.json.
+ */
+/* Screen frames: a 2-3 px blue rule, square at the left, rounded at the right,
+ * with the bloom the frames have on film. */
+[data-theme="custom-leozh-lcars-tuc-dark"] .sidebar,
+[data-theme="custom-leozh-lcars-tuc-light"] .sidebar {
+  border: 3px solid #128cff;
+  border-radius: 4px 30px 30px 4px;
+  box-shadow: 0 0 12px rgba(18, 140, 255, 0.45), inset 0 0 10px rgba(18, 140, 255, 0.18);
+}
+[data-theme="custom-leozh-lcars-tuc-dark"] .message-bubble,
+[data-theme="custom-leozh-lcars-tuc-light"] .message-bubble {
+  border: 2px solid #128cff;
+  border-radius: 3px 22px 22px 3px;
+  padding: 10px 18px;
+  box-shadow: 0 0 9px rgba(18, 140, 255, 0.4);
+}
+[data-theme="custom-leozh-lcars-tuc-dark"] .code-block,
+[data-theme="custom-leozh-lcars-tuc-light"] .code-block {
+  border: 2px solid #128cff;
+  border-radius: 3px 18px 18px 3px;
+  box-shadow: 0 0 9px rgba(18, 140, 255, 0.4);
+}
+[data-theme="custom-leozh-lcars-tuc-dark"] .input-area,
+[data-theme="custom-leozh-lcars-tuc-light"] .input-area {
+  caret-color: #19beff;
+}
+/* The console buttons are lit pills. */
+[data-theme="custom-leozh-lcars-tuc-dark"] button.primary,
+[data-theme="custom-leozh-lcars-tuc-light"] button.primary {
+  border-radius: 999px;
+  letter-spacing: 0.05em;
+  box-shadow: 0 0 10px rgba(18, 140, 255, 0.55);
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "leozh-lcars-tuc",
+  "name": "LCARS · Undiscovered Country",
+  "emoji": "🕊️",
+  "level": 1,
+  "formatVersion": 1,
+  "fonts": [
+    {
+      "family": "Michroma",
+      "file": "michroma-regular.ttf",
+      "weight": 400,
+      "role": "sans"
+    }
+  ]
+}
