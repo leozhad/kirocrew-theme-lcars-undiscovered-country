@@ -8,9 +8,10 @@ These screens sit between the movie era and LCARS: Okuda-style panels, but frame
 - **Light mode:** the same as dark. The film has no light screens.
 - **Type:** Michroma, a free face in the Microgramma style. The film's monitors use Microgramma Extended Bold ("SUBSPACE ANALYSIS", "LATERAL SENSOR ARRAY"). The letter shapes match; the film's type is heavier.
 - **Thinking indicator:** console pills lighting in turn.
+- **Welcome mark:** the movie-era Starfleet arrowhead over its ring, in the pale mint of Kirk's quarters display, on a new chat's welcome screen.
 - **Screensaver:** after 15 minutes with no key press, click, scroll or touch, a bank of the film's console screens in their blue frames: "U.S.S. ENTERPRISE NCC-1701-A", the "EM DISPLAY" with its stepping bar graph and moving traces, a segmented status ring, "SUBSPACE ANALYSIS" with a ripple running through its rings, lit console pills, and "STARDATE 9522.6" (Kirk's first log in the film). Press a key or click to dismiss it; the click does not reach the app. The dashboard's nav, session list and chat header stay on top, so the screens fill the area to their right. It does not run when the OS is set to reduce motion, and it stops after 30 minutes.
 - **Desktop splash:** while the desktop app waits for its gateway, a console screen in the blue frame: a sensor sweep with the Enterprise-A at its centre, a bar graph, the movie-era Starfleet arrowhead in its ring as on Kirk's quarters display, and lit pills. It holds still when the OS asks for reduced motion.
-- **Insignia:** the browser tab and the new-chat screen show that arrowhead over its ring, in the display's pale mint.
+- **Insignia:** the browser tab shows the same arrowhead.
 - **Code:** code blocks, diffs and the file viewer use the `github-dark-default` scheme (blue, red-orange and green) in both modes, so code stays readable on the black glass.
 - **Sounds:** short console blips when the theme turns on or off, when a reply arrives, on notifications, and when an approval waits. Original sounds made in code (`tools/sounds.py`), shaped after the film's early-1990s consoles: crisp, buzzy blips with a short echo. None is taken from the film. They stay silent under reduced motion and while sounds are muted.
 
@@ -20,9 +21,9 @@ Needs Kiro Crew 0.13.0 or newer; older versions refuse the pack.
 
 Pick System under Settings → Display → Font Family to keep the OS font.
 
-| Chat | Screensaver | Desktop splash |
-|---|---|---|
-| ![White text in glowing blue frames rounded on the right](.github/screenshots/undiscovered-country-dark.png) | ![Blue-framed console screens: U.S.S. Enterprise NCC-1701-A, EM Display, a status ring, Subspace Analysis, lit pills, Stardate 9522.6](.github/screenshots/undiscovered-country-screensaver.png) | ![Desktop splash: a blue-framed console with a sensor sweep, an orange bar graph and the Starfleet arrowhead in a ring](.github/screenshots/undiscovered-country-splash.jpg) |
+| Chat | Screensaver | Desktop splash | Welcome mark | First pick |
+|---|---|---|---|---|
+| ![White text in glowing blue frames rounded on the right](.github/screenshots/undiscovered-country-dark.png) | ![Blue-framed console screens: U.S.S. Enterprise NCC-1701-A, EM Display, a status ring, Subspace Analysis, lit pills, Stardate 9522.6](.github/screenshots/undiscovered-country-screensaver.png) | ![Desktop splash: a blue-framed console with a sensor sweep, an orange bar graph and the Starfleet arrowhead in a ring](.github/screenshots/undiscovered-country-splash.jpg) | ![A new chat's welcome screen: the pale mint Starfleet arrowhead in a ring above a white greeting and six starter cards in blue frames](.github/screenshots/undiscovered-country-welcome.jpg) | ![The dialog "Enable LCARS · Undiscovered Country experience?" with Sounds and Overlays checked, and Keep colors only and Save buttons](.github/screenshots/undiscovered-country-first-pick.jpg) |
 
 ## The three LCARS packs
 
