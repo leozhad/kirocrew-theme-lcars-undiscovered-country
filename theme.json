@@ -15,5 +15,16 @@
   "codeTheme": {
     "dark": "github-dark-default",
     "light": "github-dark-default"
-  }
+  },
+  "overlays": [
+    {
+      "id": "standby",
+      "src": "overlays/standby.html",
+      "position": "fullscreen",
+      "zIndex": 44,
+      "pointerEvents": true,
+      "animation": "continuous",
+      "trigger": "idle-900s"
+    }
+  ]
 }
